@@ -1,0 +1,7 @@
+C:\Users\20shi\source\repos\2. Elon\2. Elon\bin\Debug\_2.Elon.exe.config
+C:\Users\20shi\source\repos\2. Elon\2. Elon\bin\Debug\_2.Elon.exe
+C:\Users\20shi\source\repos\2. Elon\2. Elon\bin\Debug\_2.Elon.pdb
+C:\Users\20shi\source\repos\2. Elon\2. Elon\obj\Debug\2. Elon.csproj.AssemblyReference.cache
+C:\Users\20shi\source\repos\2. Elon\2. Elon\obj\Debug\2. Elon.csproj.CoreCompileInputs.cache
+C:\Users\20shi\source\repos\2. Elon\2. Elon\obj\Debug\_2.Elon.exe
+C:\Users\20shi\source\repos\2. Elon\2. Elon\obj\Debug\_2.Elon.pdb
