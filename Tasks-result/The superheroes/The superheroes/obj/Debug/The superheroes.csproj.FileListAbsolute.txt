@@ -1,0 +1,7 @@
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\bin\Debug\The superheroes.exe.config
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\bin\Debug\The superheroes.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\bin\Debug\The superheroes.pdb
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\obj\Debug\The superheroes.csproj.AssemblyReference.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\obj\Debug\The superheroes.csproj.CoreCompileInputs.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\obj\Debug\The superheroes.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\The superheroes\The superheroes\obj\Debug\The superheroes.pdb
