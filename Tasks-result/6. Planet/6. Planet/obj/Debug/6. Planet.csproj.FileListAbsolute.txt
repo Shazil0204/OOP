@@ -1,7 +1,0 @@
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\bin\Debug\_6.Planet.exe.config
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\bin\Debug\_6.Planet.exe
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\bin\Debug\_6.Planet.pdb
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\obj\Debug\6. Planet.csproj.AssemblyReference.cache
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\obj\Debug\6. Planet.csproj.CoreCompileInputs.cache
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\obj\Debug\_6.Planet.exe
-C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\6. Planet\6. Planet\obj\Debug\_6.Planet.pdb
