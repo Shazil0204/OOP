@@ -1,0 +1,7 @@
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\bin\Debug\_5.Distribution_hat.exe.config
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\bin\Debug\_5.Distribution_hat.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\bin\Debug\_5.Distribution_hat.pdb
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\obj\Debug\5. Distribution hat.csproj.AssemblyReference.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\obj\Debug\5. Distribution hat.csproj.CoreCompileInputs.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\obj\Debug\_5.Distribution_hat.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\5. Distribution hat\5. Distribution hat\obj\Debug\_5.Distribution_hat.pdb
