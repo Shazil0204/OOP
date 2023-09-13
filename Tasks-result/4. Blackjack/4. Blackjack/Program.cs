@@ -2,28 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using _4.Blackjack.Controller;
 
 namespace _4.Blackjack
 {
-    // Define a struct to represent a card
-    public struct Card
-    {
-        public string Suit { get; }
-        public string Rank { get; }
-
-        public Card(string suit, string rank)
-        {
-            Suit = suit;
-            Rank = rank;
-        }
-
-        // Override ToString to display card details
-        public override string ToString()
-        {
-            return $"{Rank} of {Suit}";
-        }
-    }
-
+    #region View
     class Program
     {
         static void Main(string[] args)
@@ -32,170 +15,93 @@ namespace _4.Blackjack
 
             while (true)
             {
-                // Create a deck of cards and shuffle it
-                List<Card> deck = CreateDeck();
-                ShuffleDeck(deck);
+                BlackjackGame game = new BlackjackGame();
+                game.StartGame();
 
-                // Deal two cards to the player and the dealer
-                List<Card> playerHand = new List<Card> { deck[deck.Count - 1], deck[deck.Count - 2] };
-                deck.RemoveAt(deck.Count - 1);
-                deck.RemoveAt(deck.Count - 1);
-                List<Card> dealerHand = new List<Card> { deck[deck.Count - 1], deck[deck.Count - 2] };
-                deck.RemoveAt(deck.Count - 1);
-                deck.RemoveAt(deck.Count - 1);
-
-                // Display initial hands
-                Console.Clear();
-                Console.WriteLine("\nYour hand:");
-                DisplayHand(playerHand);
-                Console.WriteLine("\nDealer's hand:");
-                DisplayDealerHand(dealerHand);
-
-                // Player's turn
-                while (CalculateHandValue(playerHand) < 21)
+                // Display the game state (player's hand, dealer's visible card, etc.)
+                Console.WriteLine("Your hand:");
+                foreach (var card in game.player.Hand)
                 {
-                    Console.WriteLine("\nDo you want to hit (h) or stand (s)?");
-                    string choice = Console.ReadLine().ToLower();
+                    Console.WriteLine(card);
+                }
 
-                    if (choice == "h")
+                Console.WriteLine($"Dealer's visible card: {game.dealer.Hand[0]}");
+
+                // Implement user interactions to hit or stand (e.g., by reading user input)
+                while (true)
+                {
+                    Console.Write("Do you want to (H)it or (S)tand? ");
+                    string choice = Console.ReadLine().Trim().ToUpper();
+
+                    if (choice == "H")
                     {
-                        playerHand.Add(deck[deck.Count - 1]);
-                        deck.RemoveAt(deck.Count - 1);
-                        Console.WriteLine("\nYour hand:");
-                        DisplayHand(playerHand);
+                        // Implement player's hit logic
+                        game.player.Hand.Add(game.DealCard());
+                        Console.WriteLine("Your hand:");
+                        foreach (var card in game.player.Hand)
+                        {
+                            Console.WriteLine(card);
+                        }
+
+                        if (game.player.CalculateHandValue() > 21)
+                        {
+                            Console.WriteLine("You busted! You lose.");
+                            break;
+                        }
                     }
-                    else if (choice == "s")
+                    else if (choice == "S")
                     {
+                        // Implement player's stand logic
+
+                        // Dealer's turn
+                        while (game.dealer.CalculateHandValue() < 17)
+                        {
+                            game.dealer.Hand.Add(game.DealCard());
+                        }
+
+                        Console.WriteLine("Dealer's hand:");
+                        foreach (var card in game.dealer.Hand)
+                        {
+                            Console.WriteLine(card);
+                        }
+
+                        // Determine the winner
+                        int playerValue = game.player.CalculateHandValue();
+                        int dealerValue = game.dealer.CalculateHandValue();
+
+                        if (playerValue > 21)
+                        {
+                            Console.WriteLine("You busted! You lose.");
+                        }
+                        else if (dealerValue > 21 || playerValue > dealerValue)
+                        {
+                            Console.WriteLine("You win!");
+                        }
+                        else if (playerValue < dealerValue)
+                        {
+                            Console.WriteLine("Dealer wins.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("It's a tie!");
+                        }
+
                         break;
                     }
-                    else
-                    {
-                        Console.WriteLine("Invalid choice. Please enter 'h' or 's'.");
-                    }
                 }
 
-                // Dealer's turn
-                while (CalculateHandValue(dealerHand) < 17)
-                {
-                    dealerHand.Add(deck[deck.Count - 1]);
-                    deck.RemoveAt(deck.Count - 1);
-                }
-
-                // Display final hands
-                Console.WriteLine("\nYour hand:");
-                DisplayHand(playerHand);
-                Console.WriteLine("\nDealer's hand:");
-                DisplayHand(dealerHand);
-
-                // Determine the winner
-                int playerValue = CalculateHandValue(playerHand);
-                int dealerValue = CalculateHandValue(dealerHand);
-
-                if (playerValue > 21 || (dealerValue <= 21 && dealerValue >= playerValue))
-                {
-                    Console.WriteLine("\nDealer wins!");
-                }
-                else
-                {
-                    Console.WriteLine("\nPlayer wins!");
-                }
-
-                // Ask if the player wants to play again
-                Console.WriteLine("\nDo you want to play again? (y/n)");
-                string playAgain = Console.ReadLine().ToLower();
-                if (playAgain != "y")
+                // Ask the user if they want to play again
+                Console.Write("Do you want to play again? (Y/N): ");
+                string playAgain = Console.ReadLine().Trim().ToUpper();
+                if (playAgain != "Y")
                 {
                     break;
                 }
             }
 
-            Console.WriteLine("Thanks for playing!");
-        }
-
-        // Create a deck of cards
-        static List<Card> CreateDeck()
-        {
-            string[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
-            string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
-
-            List<Card> deck = new List<Card>();
-
-            foreach (var suit in suits)
-            {
-                foreach (var rank in ranks)
-                {
-                    deck.Add(new Card(suit, rank));
-                }
-            }
-
-            return deck;
-        }
-
-        // Shuffle the deck
-        static void ShuffleDeck(List<Card> deck)
-        {
-            Random rng = new Random();
-            int n = deck.Count;
-
-            while (n > 1)
-            {
-                n--;
-                int k = rng.Next(n + 1);
-                Card card = deck[k];
-                deck[k] = deck[n];
-                deck[n] = card;
-            }
-        }
-
-        // Calculate the value of a hand
-        static int CalculateHandValue(List<Card> hand)
-        {
-            int value = 0;
-            int numAces = 0;
-
-            foreach (var card in hand)
-            {
-                if (card.Rank == "Ace")
-                {
-                    numAces++;
-                    value += 11;
-                }
-                else if (card.Rank == "King" || card.Rank == "Queen" || card.Rank == "Jack")
-                {
-                    value += 10;
-                }
-                else
-                {
-                    value += int.Parse(card.Rank);
-                }
-            }
-
-            // Handle aces
-            while (value > 21 && numAces > 0)
-            {
-                value -= 10;
-                numAces--;
-            }
-
-            return value;
-        }
-
-        // Display a player's hand
-        static void DisplayHand(List<Card> hand)
-        {
-            foreach (var card in hand)
-            {
-                Console.WriteLine(card);
-            }
-
-            Console.WriteLine("Total value: " + CalculateHandValue(hand));
-        }
-
-        // Display the dealer's hand with one card hidden
-        static void DisplayDealerHand(List<Card> hand)
-        {
-            Console.WriteLine(hand[0]);
-            Console.WriteLine("One card hidden");
+            Console.WriteLine("Thanks for playing Blackjack!");
         }
     }
+
+    #endregion
 }

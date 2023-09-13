@@ -5,3 +5,10 @@ C:\Users\20shi\OneDrive\Documents\Skole\Github\OOP\Tasks-result\4. Blackjack\4. 
 C:\Users\20shi\OneDrive\Documents\Skole\Github\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\4. Blackjack.csproj.CoreCompileInputs.cache
 C:\Users\20shi\OneDrive\Documents\Skole\Github\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\_4.Blackjack.exe
 C:\Users\20shi\OneDrive\Documents\Skole\Github\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\_4.Blackjack.pdb
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\bin\Debug\_4.Blackjack.exe.config
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\bin\Debug\_4.Blackjack.exe
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\bin\Debug\_4.Blackjack.pdb
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\4. Blackjack.csproj.AssemblyReference.cache
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\4. Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\_4.Blackjack.exe
+C:\Users\20shi\OneDrive\Desktop\OOP\Tasks-result\4. Blackjack\4. Blackjack\obj\Debug\_4.Blackjack.pdb
