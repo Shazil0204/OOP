@@ -1,0 +1,7 @@
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\bin\Debug\JediMindTricks.exe.config
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\bin\Debug\JediMindTricks.exe
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\bin\Debug\JediMindTricks.pdb
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\obj\Debug\JediMindTricks.csproj.AssemblyReference.cache
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\obj\Debug\JediMindTricks.csproj.CoreCompileInputs.cache
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\obj\Debug\JediMindTricks.exe
+C:\Users\20shi\OneDrive\Documents\Skole\Github\10. JediMindTricks\JediMindTricks\obj\Debug\JediMindTricks.pdb
