@@ -1,0 +1,7 @@
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\bin\Debug\_11.Inheritance.exe.config
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\bin\Debug\_11.Inheritance.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\bin\Debug\_11.Inheritance.pdb
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\obj\Debug\11. Inheritance.csproj.AssemblyReference.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\obj\Debug\11. Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\obj\Debug\_11.Inheritance.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\11. Inheritance\11. Inheritance\obj\Debug\_11.Inheritance.pdb
