@@ -1,0 +1,7 @@
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\bin\Debug\11.1 Kris Arv Opgave.exe.config
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\bin\Debug\11.1 Kris Arv Opgave.exe
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\bin\Debug\11.1 Kris Arv Opgave.pdb
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\obj\Debug\11.1 Kris Arv Opgave.csproj.AssemblyReference.cache
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\obj\Debug\11.1 Kris Arv Opgave.csproj.CoreCompileInputs.cache
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\obj\Debug\11.1 Kris Arv Opgave.exe
+C:\Users\20shi\OneDrive\Documents\Skole\11.1 Kris Arv Opgave\11.1 Kris Arv Opgave\obj\Debug\11.1 Kris Arv Opgave.pdb
