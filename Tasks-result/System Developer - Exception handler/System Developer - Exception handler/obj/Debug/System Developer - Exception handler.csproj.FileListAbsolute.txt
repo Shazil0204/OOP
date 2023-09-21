@@ -1,0 +1,7 @@
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\bin\Debug\System Developer - Exception handler.exe.config
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\bin\Debug\System Developer - Exception handler.exe
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\bin\Debug\System Developer - Exception handler.pdb
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\obj\Debug\System Developer - Exception handler.csproj.AssemblyReference.cache
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\obj\Debug\System Developer - Exception handler.csproj.CoreCompileInputs.cache
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\obj\Debug\System Developer - Exception handler.exe
+C:\Users\20shi\OneDrive\Desktop\A great System Developer\System Developer - Exception handler\System Developer - Exception handler\obj\Debug\System Developer - Exception handler.pdb
