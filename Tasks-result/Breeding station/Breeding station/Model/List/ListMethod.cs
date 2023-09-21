@@ -35,6 +35,10 @@ namespace Breeding_station.Model.List
                 }
                 Dog dog = new Dog("Dog", "Male", "No", 4, "Fluffy", age, available, "vuf vuf");
                 list.animals.Add(dog);
+                if(dog.IsAvailable() == true)
+                {
+                    list.animalsAvailable.Add(dog);
+                }
                 Debug.WriteLine("Added A Dog");
             }
         }
@@ -49,8 +53,16 @@ namespace Breeding_station.Model.List
                 {
                     available = false;
                 }
+                else
+                {
+                    available = true;
+                }
                 Chicken chicken = new Chicken("Chicken", "Female", "No", 2, "Fluffy", age, available, "ku ka ru ka duu");
                 list.animals.Add(chicken);
+                if(chicken.IsAvailable() == true)
+                {
+                    list.animalsAvailable.Add(dog);
+                }
                 Debug.WriteLine("Added A Chicken");
             }
         }
@@ -65,8 +77,16 @@ namespace Breeding_station.Model.List
                 {
                     available = false;
                 }
+                else
+                {
+                    available = true;
+                }
                 Rabbit rabbit = new Rabbit("Rabbit", "Male", "No", 4, "Fluffy", age, available, "I don't know!");
                 list.animals.Add(rabbit);
+                if(rabbit.IsAvailable() == true)
+                {
+                    list.animalsAvailable.Add(dog);
+                }
                 Debug.WriteLine("Added A Rabbit");
             }
         }
