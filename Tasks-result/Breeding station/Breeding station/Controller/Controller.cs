@@ -30,6 +30,13 @@ namespace Breeding_station.Controller
                 view.Count(i);
                 view.SoundGUI(animal.MakeSound());
             }
+
+            foreach (Animal animal in insertData.listMethod.list.animalsAvailable)
+            {
+                i++;
+                view.Count(i);
+                view.GUI(animal.ToString());
+            }
         }
     }
 }
