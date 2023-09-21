@@ -1,0 +1,7 @@
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\bin\Debug\Breeding station.exe.config
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\bin\Debug\Breeding station.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\bin\Debug\Breeding station.pdb
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\obj\Debug\Breeding station.csproj.AssemblyReference.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\obj\Debug\Breeding station.csproj.CoreCompileInputs.cache
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\obj\Debug\Breeding station.exe
+C:\Users\Shaz0184\Desktop\Github\OOP\Tasks-result\Breeding station\Breeding station\obj\Debug\Breeding station.pdb
